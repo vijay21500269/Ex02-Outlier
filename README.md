@@ -29,6 +29,7 @@ Plot the datas using Box Plot.
 Developed by : Vijay R
 Registration Number : 212221230121
 ~~~
+~~~
 import pandas as ps
 import numpy as np
 import seaborn as sns
@@ -95,4 +96,21 @@ df4.shape
 sns.boxplot(x='height',data=df4)
 ~~~
 # OUTPUT:
+## Column price_per_sqft before
+![image 1]()
+## Column price_per_sqft after performing IQR
+![image 2]()
+## Column price_per_sqft after performing zscore of 3
+![image 3]()
+## Column Weight without any actions
+![image 4]()
+## Weight after performing IQR
+![image 5]()
+## Column Height without any actions
+![image 6]()
+## Height after performing IQR
+![image 7]()
+# RESULT:
+The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
+
 

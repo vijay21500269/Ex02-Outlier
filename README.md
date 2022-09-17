@@ -109,7 +109,7 @@ sns.boxplot(x='height',data=df4)
 ## Column Height without any actions
 ![image 6](https://github.com/vijay21500269/Ex02-Outlier/blob/main/img%2006.png)
 ## Height after performing IQR
-![image 7]()
+![image 7](https://github.com/vijay21500269/Ex02-Outlier/blob/main/img%2007.png)
 # RESULT:
 The given datasets are read and outliers are detected and are removed using IQR and z-score methods.
 
